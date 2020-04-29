@@ -1,0 +1,137 @@
+
+.header {
+  position: fixed;
+  z-index: 999;
+  background: rgba(6, 25, 32, 0.548);
+  border-bottom: 10px solid transparent;
+  padding: 0 48px;
+  width: 100%;
+  zoom: 1;
+  height: 80px;
+  margin-bottom: 1cm;
+
+}
+
+.content-image {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 8px;
+};
+
+.para {
+font-size: 20px;
+}
+.content-heading {
+  font-size: 20px;
+  text-align:initial;
+};
+
+.post-content{
+  width:195px;
+  text-align: center;
+  color:#1d1c1c
+}
+
+.post-img{
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5px;
+};
+
+.content {
+  font-size:20px;
+  text-align: initial;
+  
+};
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #c2c7d1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.share-button{
+  margin-left: 7px;
+  margin-right: 6px;
+  size:60;
+}
+
+
+.subscribe{
+  bottom: 100px;
+  right: 100px;
+  position: fixed;
+  background-color: rgb(53, 34, 5);
+}
+
+.comment-box{
+    display:flexbox;
+    flex-direction: column;
+    background-color: #03466d;
+    border: 1cm;
+    border-radius: 1cm;
+}
+
+.ant-carousel .slick-slide {
+
+  font-size: "110px";
+  text-align: left;
+  line-height:100vh;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h1{
+  background-image: linear-gradient(to right,rgb(1, 24, 37) ,#023655);
+  color:#78aff7;
+}
+
+.ant-carousel .slick-slide h2{
+  background-image: linear-gradient(to right,#023655 ,#03466d);
+  color:rgb(1, 19, 34);
+
+}
+
+.ant-carousel .slick-slide h3{
+  background-image: linear-gradient(to right,#03466d,#023655 );
+  color:rgb(2, 16, 63);
+}
+
+.ant-carousel .slick-slide h4{
+  background-image: linear-gradient(to right,#023655  ,rgb(1, 24, 37));
+  color:rgb(195, 202, 241);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
