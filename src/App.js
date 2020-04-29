@@ -16,21 +16,7 @@ function App()
 {
   return (
   <div>
-    <RegisterForm/>
-    {/* <MainRoute/> */}
-     {/* <Header/> */}
-      {/* <Row>
-     <Col span={1}/>
-     <Col span={22}>
-     <CardDisplay/>
-     </Col>
-     <Col span={1}/>
-     </Row>  */}
-    {/* <div>
-    <Subscribe/>
-    <BackTop style={{right:"40px",bottom:"100px"}}/>
-    </div>
-    <Footerr/>  */}
+    <h1>All components placed in src folder.</h1>
   </div>
   );
 }
